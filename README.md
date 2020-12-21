@@ -5,7 +5,7 @@
 - Composer
 - NodeJs
 
-## Steps
+## Installation instructions
 - Clone project "git clone https://github.com/abellimac/a2odev.git"
 - Go inside project and run "Composer install"
 - Rename the file ".env.example" to ".env"
