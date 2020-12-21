@@ -22,6 +22,7 @@ window.Vue = require('vue');
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('problem-1', require('./components/Problem1.vue').default);
 Vue.component('problem-2', require('./components/Problem2.vue').default);
+Vue.component('problem-3', require('./components/Problem3.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

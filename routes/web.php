@@ -40,3 +40,4 @@ Route::get('problem-3', function () {
 
 Route::post('problem1', 'ProblemController@problem1');
 Route::post('problem2', 'ProblemController@problem2');
+Route::post('problem3', 'ProblemController@problem3');

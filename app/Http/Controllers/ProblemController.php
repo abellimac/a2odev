@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Classes\Problem1Class;
 use App\Classes\Problem2Class;
+use App\Classes\Problem3Class;
 
 class ProblemController extends Controller
 {
@@ -32,6 +33,17 @@ class ProblemController extends Controller
         $problem2class = new Problem2Class($input);
         $problem2class->parseInput();
         $result = $problem2class->queensAttack();;
+
+        return response()->json([
+            'result' => $result
+        ]);
+    }
+
+    public function problem3(Request $request)
+    {
+        $input = $request->data;
+        $problem3class = new Problem3Class($input);
+        $result = $problem3class->getResult();
 
         return response()->json([
             'result' => $result

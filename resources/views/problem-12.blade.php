@@ -1,1 +1,0 @@
-<h1>mi nombres es {{ $name }}</h1>
