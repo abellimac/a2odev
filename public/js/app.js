@@ -37754,7 +37754,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-8" }, [
       _c("div", { staticClass: "d-flex justify-content-center" }, [
-        _c("h1", { staticClass: "display-3 center" }, [_vm._v("Hill Valley")])
+        _c("h1", { staticClass: "display-3 center" }, [
+          _vm._v("Problem 1: Liga de Padel")
+        ])
       ])
     ])
   },
@@ -37765,7 +37767,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "float-right" }, [
       _c("input", {
         staticClass: "btn btn-primary",
-        attrs: { type: "submit", value: "Mostrar Resultados" }
+        attrs: { type: "submit", value: "Show results" }
       })
     ])
   }
@@ -37863,7 +37865,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-8" }, [
       _c("div", { staticClass: "d-flex justify-content-center" }, [
-        _c("h1", { staticClass: "display-3 center" }, [_vm._v("Chest")])
+        _c("h1", { staticClass: "display-3 center" }, [
+          _vm._v("Problem 2: Chess")
+        ])
       ])
     ])
   },
@@ -37874,7 +37878,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "float-right" }, [
       _c("input", {
         staticClass: "btn btn-primary",
-        attrs: { type: "submit", value: "Mostrar Resultados" }
+        attrs: { type: "submit", value: "Show results" }
       })
     ])
   }
@@ -37972,7 +37976,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-8" }, [
       _c("div", { staticClass: "d-flex justify-content-center" }, [
-        _c("h1", { staticClass: "display-3 center" }, [_vm._v("String value")])
+        _c("h1", { staticClass: "display-3 center" }, [
+          _vm._v("Problem 3: String value")
+        ])
       ])
     ])
   },
@@ -37983,7 +37989,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "float-right" }, [
       _c("input", {
         staticClass: "btn btn-primary",
-        attrs: { type: "submit", value: "Mostrar Resultados" }
+        attrs: { type: "submit", value: "Show results" }
       })
     ])
   }

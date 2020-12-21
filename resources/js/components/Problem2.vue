@@ -4,7 +4,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="d-flex justify-content-center">
-                        <h1 class="display-3 center">Chest</h1>
+                        <h1 class="display-3 center">Problem 2: Chess</h1>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -15,7 +15,7 @@
                                 <textarea id="input-2" class="form-control" rows="8" maxlength="" name="title" v-model="input2"></textarea>
                             </div>
                             <div class="float-right">
-                                <input type="submit" class="btn btn-primary" value="Mostrar Resultados">
+                                <input type="submit" class="btn btn-primary" value="Show results">
                             </div>
                         </form>
 
